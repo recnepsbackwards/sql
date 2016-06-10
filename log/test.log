@@ -1,0 +1,399 @@
+  [1m[36m (145.1ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (327.2ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (109.0ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (260.3ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:01:27 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 406ms (Views: 398.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (109.1ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (286.0ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:02:09 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 222ms (Views: 213.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (109.1ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (257.6ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:03:00 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 219ms (Views: 210.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (108.8ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (286.8ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:03:55 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 220ms (Views: 211.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (109.4ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (263.9ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (2.7ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (1.2ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:04:19 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 213ms (Views: 204.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (108.8ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (262.7ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (2.8ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (1.2ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:18:49 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 219ms (Views: 210.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:18:49 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (109.7ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (239.2ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (2.7ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (1.2ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (109.2ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (277.0ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (3.8ms)[0m  CREATE TABLE "plants" ("id" serial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160610212326')
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:28:38 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 349ms (Views: 341.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:28:39 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:29:22 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 208ms (Views: 200.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:29:22 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:30:02 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 210ms (Views: 203.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:30:02 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/plant" for 127.0.0.1 at 2016-06-10 14:30:02 -0700
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:30:40 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 208ms (Views: 200.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:30:40 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify" for 127.0.0.1 at 2016-06-10 14:30:40 -0700
+Processing by PlantController#identify as HTML
+  Rendered plant/identify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:40:38 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 205ms (Views: 197.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:40:38 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify" for 127.0.0.1 at 2016-06-10 14:40:38 -0700
+Processing by PlantController#identify as HTML
+  Rendered plant/identify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:48:56 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 210ms (Views: 201.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:48:56 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:50:07 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 219ms (Views: 211.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 14:50:08 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 14:50:08 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+  Rendered plant/identify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:14:20 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 210ms (Views: 202.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:14:20 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:14:20 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 2.4ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:14:45 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 207ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:14:46 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:14:46 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "plants" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-06-10 22:14:46.228320"], ["updated_at", "2016-06-10 22:14:46.228320"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered plant/identify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 5.2ms | ActiveRecord: 2.8ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:15:14 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 211ms (Views: 203.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:15:15 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:15:15 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "plants" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2016-06-10 22:15:15.035563"], ["updated_at", "2016-06-10 22:15:15.035563"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered plant/identify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 5.0ms | ActiveRecord: 2.8ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:18:59 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 211ms (Views: 203.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:19:00 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:19:00 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 2.1ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:20:05 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 207ms (Views: 199.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:20:05 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:20:05 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.8ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:20:24 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 208ms (Views: 199.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:20:24 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:20:24 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 2.1ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:22:17 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 208ms (Views: 200.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:22:17 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:22:17 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 2.1ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (109.2ms)[0m  [1mDROP DATABASE IF EXISTS "wildlifetracker_test"[0m
+  [1m[35m (305.9ms)[0m  CREATE DATABASE "wildlifetracker_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (49.9ms)[0m  CREATE TABLE "plants" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (7.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (6.4ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160610222734')
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:29:15 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 219ms (Views: 211.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:29:15 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:29:15 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "plants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Fir"], ["created_at", "2016-06-10 22:29:15.262059"], ["updated_at", "2016-06-10 22:29:15.262059"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered plant/identify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 5.0ms | ActiveRecord: 2.9ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:29:40 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 206ms (Views: 198.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:29:40 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:29:40 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "plants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Fir"], ["created_at", "2016-06-10 22:29:40.396684"], ["updated_at", "2016-06-10 22:29:40.396684"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered plant/identify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 5.3ms | ActiveRecord: 2.9ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:30:11 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 204ms (Views: 196.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/" for 127.0.0.1 at 2016-06-10 15:30:11 -0700
+Processing by WelcomeController#register as HTML
+  Rendered welcome/register.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/plant/identify?plant_name=Fir" for 127.0.0.1 at 2016-06-10 15:30:11 -0700
+Processing by PlantController#identify as HTML
+  Parameters: {"plant_name"=>"Fir"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "plants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Fir"], ["created_at", "2016-06-10 22:30:11.979507"], ["updated_at", "2016-06-10 22:30:11.979507"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered plant/identify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 4.9ms | ActiveRecord: 2.9ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
